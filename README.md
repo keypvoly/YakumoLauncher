@@ -1,3 +1,3 @@
 # YakumoLauncher
 
-for Nishinippori
+by Nishinippori
