@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace YakumoLauncher
 {
     public partial class Form1 : Form
@@ -20,12 +19,6 @@ namespace YakumoLauncher
         {
             InitializeComponent();
         }
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            pictureBox1.MouseDown += new MouseEventHandler(Form1_MouseDown);
-            pictureBox1.MouseMove += new MouseEventHandler(Form1_MouseMove);
-        }
-
         //Form1のMouseDownイベントハンドラ
         //マウスのボタンが押されたとき
         private void Form1_MouseDown(object sender,
